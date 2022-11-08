@@ -1,0 +1,248 @@
+/*Header*/
+
+#mainNav {
+  background: linear-gradient(
+    to top,
+    rgba(255, 165, 0, 0.8) 0%,
+    rgba(71, 207, 228, 0.8) 100%
+  );
+  transition: background-color 0.2s ease;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.navbar-nav li a {
+  box-shadow: inset 0 0 0 0 #48cae4;
+  color: #ffffff;
+  margin: 0 -0.25rem;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+  box-shadow: inset 100px 0 0 0 #48cae4;
+  color: white;
+}
+/*Headline*/
+
+.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 165, 0, 0.8) 0%,
+      rgba(71, 207, 228, 0.8) 100%
+    ),
+    url(../img/habla.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-bottom: 20rem;
+}
+
+/*Testimonials*/
+.testimonials {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+/*Footer*/
+.LogoStatement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*ABOUT US*/
+
+.AboutUs{
+  color: #FFA500;
+}
+
+.ustext{
+  font-size: large;
+  padding-top: 2em;
+}
+
+#TeamT{
+  color: #FFA500;
+}
+
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+/*Courses*/
+
+/* 
+#FFA500 - galben
+#48CAE4 - albastru
+*/
+
+.single-price {
+  text-align: center;
+  background: #FFA500;
+  transition: .7s;
+  margin-top: 20px;
+}
+.single-price h3 {
+  font-size: 25px;
+  color: #48CAE4;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  margin-top: -80px;
+  font-family: poppins;
+  color: #fff;
+}
+.single-price h4 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #fff;
+}
+.single-price h4 span.sup {
+  vertical-align: text-top;
+  font-size: 25px;
+}
+.deal-top {
+  position: relative;
+  background: #48CAE4;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 136px 24px 0;
+}
+.deal-top::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid #48CAE4;
+  border-left: 175px solid transparent;
+  border-right: 183px solid transparent;
+}
+.deal-bottom {
+  padding: 56px 16px 0;
+}
+.deal-bottom ul {
+  margin: 0;
+  padding: 0;
+}
+.deal-bottom  ul li {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 300;
+  margin-top: 16px;
+  border-top: 1px solid #E4E4E4;
+  padding-top: 16px;
+  list-style: none;
+  font-weight: 400;
+}
+.btn-area a {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #48CAE4;
+  padding: 8px 64px;
+  margin-top: 32px;
+  border-radius: 4px; 
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight:700;
+  text-decoration: none;
+}
+
+
+.single-price:hover {
+  background: #48CAE4;
+}
+.single-price:hover .deal-top {
+  background: #FFA500;
+}
+.single-price:hover .deal-top:after {
+  border-top: 50px solid #FFA500;
+}
+.single-price:hover .btn-area a {
+  background: #FFA500;
+}
+
+.pricing-area{
+  padding-bottom: 5em;
+}
+
+
+/* Contact*/ 
+
+.contact-us {
+  padding: 70px 0px;
+  background:linear-gradient(
+    to bottom,
+    rgba(255, 165, 0, 0.8) 0%,
+    rgba(71, 207, 228, 0.8) 100%
+  );
+}
+.section-title h2 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  border-bottom: 5px solid #af8070;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.section-title p {
+  color: #e8e8e8;
+  margin-bottom: 30px;
+}
+.contact-us input,
+.contact-us textarea {
+  background: #fafafa;
+}
+.contact-us textarea {
+  min-height: 188px;
+  max-width: 100%;
+}
+.contact-us .map {
+  overflow: hidden;
+  border-radius: 4px;
+}
