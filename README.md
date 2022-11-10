@@ -9,6 +9,7 @@
 <p>Your latest assignment at We Design Inc. involves building a website for a local business called "We Learn". We Learn is a Spanish training center which teaches adults the fundamentals of the Spanish language.</p>
 
 <p>The business (We Learn) has requested a responsive website to be made for their business which must look uniformly good on a range of devices (phones, tablets and laptops)."</p>
+
 ### The challenge
 
 1.Home page:
@@ -41,6 +42,7 @@
 <li>#FFA500</li>
 <li>#F5F5F5</li>
 </ul>
+
 ### Links
 
 - Live Site URL: https://dutatiberiu.github.io/We-Learn/
